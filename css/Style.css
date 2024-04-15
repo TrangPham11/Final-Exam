@@ -1,0 +1,70 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@700&display=swap');
+.jura{
+  font-family: "Jura", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+body{font-family: "Jura", sans-serif; font-size: 16px; margin: 0}
+header{width: 100%; height: 60px; background-color: #EFEFEF}
+.container{width: 80%; margin: 0 auto}
+.logo{padding-top: 22px}
+.menu{padding-top: 19px}
+.menu ul{padding: 0; margin: 0; list-style: none; display: flex}
+.menu ul li a{padding: 10px 25px; text-decoration: none; color: #7D7D7D; font-size: 17px}
+.menu a:hover{color: darkred}
+.icons{padding-top: 20px}
+.icons a{padding: 10px 5px; text-decoration: none}
+#slide .owl-dots{ position:absolute; bottom: 10px; left: 47%}
+#slide .owl-dots .owl-dot span {
+      width: 12px;
+      height: 12px; 	
+}
+#slide .owl-nav { position:absolute; left:0px; top:40%; width:100%; }
+#slide .owl-nav [class*='owl-'] {
+	font-size:60px; /*background:rgba(255,255,255,.5);border:1px solid #fff; */ color: #fff
+}
+
+#slide .owl-nav .owl-next{ position:absolute; right:5%;}
+#slide .owl-nav .owl-prev{ position:absolute; left:5%;}
+#slide .owl-nav [class*='owl-']:hover {
+      background:none;border: none;
+      color:yellow;
+      text-decoration: none; }
+main{width: 100%; min-height: 500px}
+.gach-chan{border-bottom: 3px solid darkred}
+.text-do{color: darkred}
+.vien{border: 1px solid darkred; padding: 15px; border-radius: 7px; position: relative; overflow: hidden}
+.icon{width: 80%; height: 45px; position: absolute; left: 10%; top: -15%; display: flex; justify-content: space-around; transition: all 1s}
+.icon a{height: 45px; width: 45px; background-color: darkred; color: white; border-radius: 50%; display: flex; justify-content: center; align-items: center; text-decoration: none}
+.icon a:hover{background-color: #989898; color: darkred}
+.vien:hover .icon{top: 40%}
+#feature{width: 100%; min-height: 600px; background-image: url("../images/bg2.png"); background-repeat: no-repeat; background-size: cover; background-position: bottom center}
+.pt-30{padding-top: 50px}
+.vien-trang{border: 1px solid white; text-align: center; padding: 20px; color: darkred}
+.vien-trang a{text-decoration: none; color: darkred}
+.vien-trang a:hover{color: white}
+.subtitle{width: 30%; position: absolute; left: 35%; text-align: center}
+.fs-14{font-size: 14px}
+.content{padding-top: 60px}
+.content h1{padding-top: 170px}
+.img-50{width: 100%; height: 500px}
+#contact{width: 100%; min-height: 600px; background-image: url("../images/Banner2.png"); background-repeat: no-repeat; background-size: cover;
+background-position: center center}
+.shadow{min-height: 300px; border: 1px solid #C8C8C8; box-shadow: 5px 5px 5px gray; padding: 30px}
+.form-control{padding: 8px; width: 100%; margin-bottom: 10px}
+.banner{width: 100%; min-height: 500px; position: relative; left: 0; top: 0}
+.icon-3{width: 250px; height: 150px}
+.img-3{width: 40%; height: auto; margin-left: 105px}
+footer{width: 100%; min-height: 300px; background-color: #E2E2E2}
+footer a{color: #414141; text-decoration: none}
+footer a:hover{color: wheat}
+.bg-xanh{background-color: #71502F; text-align: center}
+footer ul{margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column}
+footer ul li a{padding: 10px; display: block; color: white}
+.form-control{padding: 8px; margin-bottom: 10px; width: 100%}
+.w-30{width: 30%; float: left; padding: 15px}
+.w-70{width: 70%; float: right; padding: 15px}
+.gray-border{width: 100%; min-height: 200px; border: 1px solid #5E5E5E; border-radius: 10px; padding: 10px}
